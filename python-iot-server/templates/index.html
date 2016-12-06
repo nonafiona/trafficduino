@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ author }}'s app</title>
+    </head>
+
+    <body>
+        <h2 id="sensor-value">Light Sensor Reading: {{ value }}</h2>
+        <h2 id="light-status">LED Status: {{ light_value }}</h2>
+
+        <input type="submit" name="submit" value="Turn On" onclick="turnOn()">
+        <input type="submit" name="submit" value="Turn Off" onclick="turnOff()">
+        <input type="submit" name="submit" value="Normal Mode" onclick="normalMode()">
+        <input type="submit" name="submit" value="Emergency Mode" onclick="emergencyMode()">
+
+    </body>
+    
+</html>
